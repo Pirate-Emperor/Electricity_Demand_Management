@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ECF</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Electricity Consumption Flattener</h1>
+     <h3> Enter the following values to provide clusters you belong to</h3>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="meter_id" placeholder="Smart Meter ID" required="required" />
+        
+    <input type="text" name="hour" placeholder="Hour" required="required" />
+    <input type="text" name="day_of_week" placeholder="Day of Week" required="required" />
+    <input type="text" name="quarter" placeholder="Quarter" required="required" />
+    <input type="text" name="month" placeholder="Month" required="required" />
+    <input type="text" name="year" placeholder="Year" required="required" />
+		<input type="text" name="day_of_year" placeholder="Day of Year" required="required" />
+        <button type="submit" class="btn">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
