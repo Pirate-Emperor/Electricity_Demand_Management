@@ -83,7 +83,7 @@ The script will use historical electricity consumption data to train the ML mode
 
 ## Data Source
 
-The project requires historical electricity consumption data with time-series information, such as date, time, and electricity consumption. You can obtain the data from public datasets or your local utility provider.
+The project requires historical electricity consumption data with time-series information, such as date, time, and electricity consumption. The data is obtained from public datasets
 
 ## Development
 
