@@ -31,7 +31,7 @@ The Objective of this project is to satisfy electricity demands of every region 
 5) Industrial Sector (Large Scale) already has well-organised electricity management/ their own power stations so the chances of saving electricity are minimal and these organizations have steady electricity demand.
 6 Target: 
 	i) Domestic:
-		- Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
+		* Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
 		- Suggest practices to flatten the demand curve:
 			- Alerts: To warn the consumer to reduce their consumption during those time period
 			- Energy Storage Integration
