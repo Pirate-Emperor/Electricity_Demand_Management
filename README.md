@@ -25,10 +25,11 @@ The Objective of this project is to satisfy electricity demands of every region 
 1) Aim to prevent Power Outages (Flattening the Demand Curve).
 2) To reduce the probability of grid failures (Flattening the Demand Curve).
 3) Why this model? -> Domestic Household Datasets are lacking the appliances specific metering.
-4) Why flattens the curve? - Renewables Resources (Solar Panel during Rainy Season can't be used and those users’ electricity demands will be dependent on government provided power stations and hence there will be sudden rise in electricity demand during rainy season)
+4) Why flattens the curve?
+   - Renewables Resources (Solar Panel during Rainy Season can't be used and those users’ electricity demands will be dependent on government provided power stations and hence there will be sudden rise in electricity demand during rainy season)
 			  - Power Outages
 			  - Grid Failure (Equipment Disrupts due to sudden rise and fall in demand)
-5) Industrial Sector (Large Scale) already has well-organised electricity management/ their own power stations so the chances of saving electricity are minimal and these organizations have steady electricity demand.
+6) Industrial Sector (Large Scale) already has well-organised electricity management/ their own power stations so the chances of saving electricity are minimal and these organizations have steady electricity demand.
 6 Target: 
 	i) Domestic:
 		* Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
