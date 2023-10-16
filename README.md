@@ -30,18 +30,18 @@ The Objective of this project is to satisfy electricity demands of every region 
    - Power Outages
    - Grid Failure (Equipment Disrupts due to sudden rise and fall in demand)
 6) Industrial Sector (Large Scale) already has well-organised electricity management/ their own power stations so the chances of saving electricity are minimal and these organizations have steady electricity demand.
-6 Target: 
-	i) Domestic:
-- Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
-- Suggest practices to flatten the demand curve:
-			1.2.1 Alerts: To warn the consumer to reduce their consumption during those time period
-			1.2.2 Energy Storage Integration
-			1.2.3 Variable Pricing (Low for Low Demand) as per similar clusters within an electricity region (defined by a cluster of similar labels in geographical area)
-			1.2.4 Forecasting and Adaption: To predict the power consumption of the consumers (region wise) and suggest changes before a day or two prior to it.
-			1.2.5 Flexible Generation Scheduling: Use of flexible generation resources to meet the demands to compensate for the fluctuations
-			1.2.6 Contribution to Nature (Reduction in Carbon Footprints)
-	ii) Small Scale Industry 
-		1.1 Use of LLM model to suggest methods to save electricity during production
+7) Target:
+   - Domestic:
+     	- Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
+     	- Suggest practices to flatten the demand curve:
+     	  	- Alerts: To warn the consumer to reduce their consumption during those time period
+     	  	- Energy Storage Integration
+     	  	- Variable Pricing (Low for Low Demand) as per similar clusters within an electricity region (defined by a cluster of similar labels in geographical area)
+     	  	- Forecasting and Adaption: To predict the power consumption of the consumers (region wise) and suggest changes before a day or two prior to it.
+     	  	- Flexible Generation Scheduling: Use of flexible generation resources to meet the demands to compensate for the fluctuations
+     	  	- Contribution to Nature (Reduction in Carbon Footprints)
+	- Small Scale Industry 
+		- Use of LLM model to suggest methods to save electricity during production
 7 Challenges:
 	i) Variable Demand: Uncertainty in weather, holidays, varying household needs.
 	ii) Variable Generation: Power outages, Maintenance and rise of Renewable resources
