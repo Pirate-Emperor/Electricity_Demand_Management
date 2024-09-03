@@ -1,99 +1,99 @@
-# Electricity_Demand_Management
+# Electricity Demand Management
 
-This project, developed by Pirate-Emperor, focuses on managing electricity demand during peak periods using machine learning (ML) models for forecasting and optimization.
+![](header.png)
+
+**Author:** Pirate-Emperor
+
+**Project Overview:** This project leverages machine learning (ML) models to forecast and optimize electricity demand, particularly during peak periods. The goal is to balance energy supply and demand, reducing the risk of power outages and improving grid stability.
+
+## Demo Video
+[![Watch the video](https://img.youtube.com/watch?v=3-vEIQ4YiVA/maxresdefault.jpg)](https://www.youtube.com/watch?v=3-vEIQ4YiVA)
 
 ## Abstract
-- India is the world’s third largest energy consuming country whose need for the energy increases rapidly from 106.6 billion units(BU) in 2019 to 124.2 BU in 2021 to 132 BU in 2022.Majority of which is met by coal reserves in several states, that are running out fast causing Power Blackouts.India loses about $86 billion annually to power sector distortions and Blackouts as per World Bank."The power outages across the country due to coal shortage are due to the lack of coordination amongst the coal ministry, railway ministry and power ministry. Every ministry claims that they are not responsible for the present mess in the power sector," AIPEF said in a statement.
 
--	We aspire to resolve this issue by flattening and matching the demand to supply curve of energy.We wish to Achieve this result to reduce the probability of power grid failure which are the main cause of power outage affecting metro, hospitals and Disrupt communications.In order to accomplish this result we must study the behavioral pattern of both industrial as well as domestic consumption which constitute of 41.09% and 25.67% of the total power consumption using DTW/K-means (to form clusters and label the result) and LLM model to suggest methods to save electricity during production while keeping in mind the Key variables such as weather patterns,geographical location and Transmission Constraints etc.Enhanced and Accurate Forecasting that incorporate weather data, historical patterns, and machine learning algorithms for Flexible Generation Scheduling to complement and balance the variable output of renewable energy sources to maintain grid stability to help the Independent system operators (ISOs) along side Users to keep a track of their activities.We intend to suggest measures such as variable pricing to tackle the Uncertainty throughout the year due to weather conditions, or special events.this shall be done by expanding the scope of application of smart meters currently in use.
-	
--	Many large scale industries are already started to adapt allowing us to shift our focus to domestic and small to medium scaled businesses.We expect to face the challenges such as Domestic Household Datasets are lacking the appliances specific metering.Weather patterns which affect both the usage and generation of energy from renewable sources making it more complex.Variable and Uncertain Generation due to  unexpected outages or require maintenance, reducing the overall available generation capacity.The electricity grid requires a constant balance between supply and demand to maintain stable operating conditions.Sudden Fluctuations in generation or demand can impact the grid's stability, leading to issues like frequency deviations.We need to be predict such fluctuations and preare reserves to compensate for the fluctuations.
- 
-## Features
+India is the world's third-largest energy consumer, with its energy needs escalating from 106.6 billion units (BU) in 2019 to 132 BU in 2022. This increasing demand is largely met by coal reserves, which are depleting rapidly and causing frequent power blackouts. According to the World Bank, India loses about $86 billion annually due to power sector inefficiencies and blackouts. The lack of coordination among various ministries contributes to these challenges, leading to widespread power disruptions.
 
-- **Load Forecasting**: Uses historical electricity consumption data to predict future load using ML models.
-- **Demand Response**: Implements demand response strategies to shift or shed load during peak times.
-- **Optimization**: Applies optimization techniques to reduce peak demand and distribute loads evenly.
-- **Cost Savings**: Offers solutions to minimize electricity costs during peak hours.
-- **User-friendly Interface**: Provides an intuitive dashboard for easy monitoring and decision-making.
+This project aims to mitigate these issues by aligning energy demand with supply, thereby reducing the likelihood of grid failures that disrupt essential services such as metro systems, hospitals, and communication networks. The approach involves studying both industrial and domestic consumption patterns, which account for 41.09% and 25.67% of total power usage, respectively. By employing techniques like DTW/K-means clustering and LLM models, the project suggests methods to optimize electricity production and consumption while considering factors like weather patterns, geographical location, and transmission constraints. Enhanced forecasting, incorporating weather data and historical patterns, will enable flexible generation scheduling to stabilize the grid and provide users with actionable insights to manage their electricity consumption.
 
-## Description
+## Key Features
 
-Topic Name: Demand Response Solutions for Peak Load Management
+- **Load Forecasting:** Predicts future electricity demand using historical consumption data and ML models.
+- **Demand Response:** Implements strategies to shift or reduce load during peak times, preventing grid overload.
+- **Optimization:** Applies advanced optimization techniques to distribute loads evenly and reduce peak demand.
+- **Cost Efficiency:** Offers solutions to minimize electricity costs during peak hours through smart management.
+- **User-friendly Interface:** Features an intuitive dashboard for easy monitoring and decision-making.
 
-The Objective of this project is to satisfy electricity demands of every region of India 24/7. This project is achieving this by incorporating the principle of flattening the electricity demand curve as sudden rise/fall in electricity demand leads to machine failure and wastage of electricity to change the grid supply to such fluctuations, and which further leads to power outages. Solution to the above problem is by changing the user's behaviour to balance the electricity needs. When the electricity demand is constant then the chance of grid failure and wastage of wattage during meeting the fluctuations in electricity demand will be negligible and hence power outages will be drastically reduced. The following points explain the underlying feature of this project:
-1) Aim to prevent Power Outages (Flattening the Demand Curve).
-2) To reduce the probability of grid failures (Flattening the Demand Curve).
-3) Why this model? -> Domestic Household Datasets are lacking the appliances specific metering.
-4) Why flattens the curve?
-   - Renewables Resources (Solar Panel during Rainy Season can't be used and those users’ electricity demands will be dependent on government provided power stations and hence there will be sudden rise in electricity demand during rainy season)
-   - Power Outages
-   - Grid Failure (Equipment Disrupts due to sudden rise and fall in demand)
-6) Industrial Sector (Large Scale) already has well-organised electricity management/ their own power stations so the chances of saving electricity are minimal and these organizations have steady electricity demand.
-7) Target:
-   - Domestic:
-     	- Use of DTW/K-means (to form clusters and label the result) and DTW/KNN to (to predict cluster from previous labels)
-     	- Suggest practices to flatten the demand curve:
-     	  	- Alerts: To warn the consumer to reduce their consumption during those time period
-     	  	- Energy Storage Integration
-     	  	- Variable Pricing (Low for Low Demand) as per similar clusters within an electricity region (defined by a cluster of similar labels in geographical area)
-     	  	- Forecasting and Adaption: To predict the power consumption of the consumers (region wise) and suggest changes before a day or two prior to it.
-     	  	- Flexible Generation Scheduling: Use of flexible generation resources to meet the demands to compensate for the fluctuations
-     	  	- Contribution to Nature (Reduction in Carbon Footprints)
-	- Small Scale Industry 
-		- Use of LLM model to suggest methods to save electricity during production
-7 Challenges:
-	i) Variable Demand: Uncertainty in weather, holidays, varying household needs.
-	ii) Variable Generation: Power outages, Maintenance and rise of Renewable resources
- 	iii) Grid Stability: Sudden Fluctuations in electricity demand will impact the grid's stability
-	iv) Integration of Renewable Energy: Variability in (during Rainy Season) usage would have bad impact on the electricity demand curve 
-	v) Need for Appliances-specific Readings.
+## Project Description
+
+**Topic:** Demand Response Solutions for Peak Load Management
+
+The primary objective of this project is to ensure a stable electricity supply across all regions of India, 24/7. This is achieved by flattening the electricity demand curve, as sudden fluctuations can lead to machine failures, energy wastage, and ultimately, power outages. By encouraging users to modify their consumption behavior, the project aims to balance electricity demand, thereby minimizing the risk of grid failures and power outages.
+
+### Key Objectives:
+
+1. **Prevent Power Outages:** Flatten the demand curve to stabilize the electricity grid.
+2. **Reduce Grid Failures:** Minimize sudden fluctuations in demand that can disrupt grid stability.
+3. **Targeted Solutions:** Focus on domestic households and small to medium-sized businesses, where electricity management is less optimized.
+4. **Adaptation of Renewable Energy:** Address the challenges posed by the variability of renewable energy sources, such as solar power during the rainy season.
+5. **Industrial Sector Considerations:** While large-scale industries have organized electricity management systems, this project targets smaller sectors where optimization can have a significant impact.
+
+### Challenges:
+
+- **Variable Demand:** Uncertainty due to weather changes, holidays, and varying household needs.
+- **Variable Generation:** Power outages and maintenance issues that affect generation capacity.
+- **Grid Stability:** The need to maintain a constant balance between supply and demand to avoid grid disruptions.
+- **Integration of Renewable Energy:** The impact of weather variability on renewable energy usage.
+- **Appliance-specific Data:** The lack of detailed metering data for specific appliances in domestic settings.
 
 ## Prerequisites
 
-To run the project, you will need:
+To run this project, you will need:
 
 - Python 3.x
 - Required Python libraries (numpy, pandas, scikit-learn, matplotlib, etc.)
 
 ## Installation
 
-Clone the repository and navigate to the project directory:
+Follow these steps to set up the project:
 
-```bash
-git clone https://github.com/Pirate-Emperor/Electricity_Demand_Management.git
-cd Electricity_Demand_Management
-```
+1. **Clone the repository:**
 
-Install the required Python packages:
+   ```bash
+   git clone https://github.com/Pirate-Emperor/Electricity_Demand_Management.git
+   cd Electricity_Demand_Management
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+2. **Install the required Python packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-Run the main Python script:
+To run the project:
 
-```bash
-python main.py
-```
+1. Execute the main script:
 
-The script will use historical electricity consumption data to train the ML models and predict future load. It will also apply demand response strategies and optimization techniques to manage electricity demand during peak hours.
+   ```bash
+   python main.py
+   ```
+
+   The script will use historical electricity consumption data to train ML models, predict future demand, and apply demand response strategies to optimize electricity usage during peak hours.
 
 ## Data Source
 
-The project requires historical electricity consumption data with time-series information, such as date, time, and electricity consumption. The data is obtained from public datasets
+The project relies on historical electricity consumption data with time-series information, such as date, time, and electricity usage. This data is obtained from public datasets.
 
 ## Development
 
-To enhance the project, you can modify the Python scripts in the `src` directory. Some potential areas for improvement include:
+For those interested in contributing to the project, potential areas for improvement include:
 
-- Exploring more sophisticated ML models for load forecasting.
-- Enhancing the demand response strategies for better load management.
-- Integrating weather forecasts and other external factors for improved predictions.
-- Improving the user experience of the dashboard.
+- Exploring more advanced ML models for load forecasting.
+- Enhancing demand response strategies for better load management.
+- Integrating external factors like weather forecasts for more accurate predictions.
+- Improving the user experience through dashboard enhancements.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
